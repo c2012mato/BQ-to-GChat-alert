@@ -1,0 +1,13 @@
+BigQuery Scheduled Query
+        |
+      (Results)
+        v
+   Alerts Table
+        |
+    (Trigger)
+        v
+ Google Cloud Function
+        |
+     (HTTP)
+        v
+Google Chat Webhook (Space)
